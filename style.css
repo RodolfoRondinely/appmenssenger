@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #2a1f1f;
+    color: aliceblue;
+}
+.containner{
+    flex-wrap: wrap;
+ }
+.app{
+    width: 100vw;
+
+    display: flex;
+    flex-direction:row;
+    background: #1a1924;
+    border-radius: 15px;
+}
+.nav{
+    display: flex;
+    position: relative;
+   
+}
+.nav-left{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    
+}.nav-rigth{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.nav-rigth p{
+    padding: 2px;
+    margin: 2px;
+    font-size: 1.5rem;
+}
+.nav img{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    text-align: right;
+}
+.nav .status{
+    color: #00e37e;
+}
+.date{
+    display: flex;
+    justify-content: center;
+    padding:2%;
+    
+}
+.msn{
+    width: 100vw;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.left{
+    width: 50vw;
+    margin: 2%;
+    object-fit: contain;
+    overflow: hidden;
+}
+.rigth{
+    width: 50vw;
+    margin: 2%;
+    object-fit: contain;
+    overflow: hidden;
+
+}
+
+.messagen-find, .messagen-send {
+    width: 25vw;
+    background: none;
+    border-radius: 15px;
+
+}
+.msnLeft{
+    max-width:45vw;
+    margin-top: 10px;
+
+    display: flex;
+    align-items: flex-start;
+
+}
+.msnRigth{
+    max-width:45vw;
+    margin-top: 10px;
+    
+    display: flex;
+    align-items: flex-end;
+}
+.msnRigth p {
+    padding: 10px;
+    background: #07847e;
+    border-radius: 15px;
+}
+.msnLeft p{
+    background: rgb(125, 41, 210);
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 25vw;
+    height: auto;
+}
+.msnRigth p{
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 25vw;
+    height: auto;
+    background: #00e37e;
+
+}
+.send{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background: wheat;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.send img{
+    width: 60px;
+    background: wheat;
+    cursor: pointer;
+    
+}
+.text{
+    padding: 5px;
+    margin: 5px;
+    width: 80%;
+    height: 70px;
+    background-color:wheat;
+
+    font-style: italic;
+    font-weight: bolder;
+    font: cursive;
+    color: black;
+    border: none;
+    outline: 0;
+    
+}
+::placeholder{
+    color: rgb(23, 46, 39);
+    font-size: larger;
+    text-align: center;
+    text-shadow:2px 5px 15px rgb(58, 89, 65);
+}
+
